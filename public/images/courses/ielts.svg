@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#083344"/><stop offset="1" stop-color="#0891B2"/></linearGradient>
+    <radialGradient id="r1" cx=".8" cy=".15" r=".7"><stop stop-color="#FFFFFF" stop-opacity=".18"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#g1)"/>
+  <rect width="1200" height="750" fill="url(#r1)"/>
+  <g opacity=".12" stroke="#FFFFFF" stroke-width="1"><path d="M0 75h1200M0 150h1200M0 225h1200M0 300h1200M0 375h1200M0 450h1200M0 525h1200M0 600h1200M0 675h1200"/><path d="M75 0v750M150 0v750M225 0v750M300 0v750M375 0v750M450 0v750M525 0v750M600 0v750M675 0v750M750 0v750M825 0v750M900 0v750M975 0v750M1050 0v750M1125 0v750"/></g>
+  <circle cx="980" cy="120" r="220" fill="#FFFFFF" opacity=".06"/>
+  <circle cx="160" cy="680" r="260" fill="#FFFFFF" opacity=".05"/>
+  <g transform="translate(360 180) scale(1.55)">
+    <path d="M270 510V350l120-70 120 70v160l-120 70-120-70Z" fill="none" stroke="#FFFFFF" stroke-opacity=".9" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g opacity=".92">
+    <circle cx="960" cy="590" r="52" fill="#FFFFFF" opacity=".12"/>
+    <circle cx="1050" cy="630" r="22" fill="#FFFFFF" opacity=".18"/>
+    <circle cx="890" cy="650" r="12" fill="#FFFFFF" opacity=".35"/>
+  </g>
+  <text x="120" y="115" fill="#FFFFFF" opacity=".85" font-family="Inter, Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="8">IDP</text>
+</svg>

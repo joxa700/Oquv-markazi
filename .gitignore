@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+*.log
+server/uploads/*
+!server/uploads/.gitkeep
+server/prisma/*.db
+server/prisma/*.db-journal
+server/prisma/test.db
+coverage/
+playwright-report/
+test-results/
+.vscode/
+.DS_Store

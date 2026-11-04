@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07162A"/><stop offset="1" stop-color="#123056"/></linearGradient><radialGradient id="glow" cx=".82" cy=".18" r=".7"><stop stop-color="#2168D6" stop-opacity=".55"/><stop offset="1" stop-color="#2168D6" stop-opacity="0"/></radialGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect width="1200" height="630" fill="url(#glow)"/>
+  <g opacity=".12" stroke="#FFFFFF"><path d="M0 70h1200M0 140h1200M0 210h1200M0 280h1200M0 350h1200M0 420h1200M0 490h1200M0 560h1200M70 0v630M140 0v630M210 0v630M280 0v630M350 0v630M420 0v630M490 0v630M560 0v630M630 0v630M700 0v630M770 0v630M840 0v630M910 0v630M980 0v630M1050 0v630M1120 0v630"/></g>
+  <g transform="translate(100 110) scale(1.1)">
+    <rect width="64" height="64" rx="18" fill="#FFFFFF" fill-opacity=".1" stroke="#FFFFFF" stroke-opacity=".2"/>
+    <path d="M14 43V22.5c7.8 0 13.2 2.3 18 6.1 4.8-3.8 10.2-6.1 18-6.1V43c-7.8 0-13.2 2.3-18 6.1-4.8-3.8-10.2-6.1-18-6.1Z" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linejoin="round"/>
+    <path d="M32 28.6V49" stroke="#7BB5FF" stroke-width="3.2" stroke-linecap="round"/>
+  </g>
+  <text x="192" y="163" fill="#7BB5FF" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="7">NUR TA’LIM</text>
+  <text x="100" y="320" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="800">Learn today.</text>
+  <text x="100" y="405" fill="#A9C7F2" font-family="Inter, Arial, sans-serif" font-size="76" font-weight="800">Lead tomorrow.</text>
+  <text x="104" y="483" fill="#C5D8F1" font-family="Inter, Arial, sans-serif" font-size="27">English • IT • Mathematics • Russian</text>
+  <g transform="translate(970 410)">
+    <circle cx="0" cy="0" r="105" fill="#FFFFFF" opacity=".08"/>
+    <path d="M-60 35V-55l60-38 60 38v90l-60 38-60-38Z" fill="none" stroke="#7BB5FF" stroke-width="5" opacity=".8"/>
+  </g>
+  <rect x="100" y="525" width="180" height="7" rx="3.5" fill="#2168D6"/>
+</svg>

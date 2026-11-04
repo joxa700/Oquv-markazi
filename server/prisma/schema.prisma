@@ -1,0 +1,169 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Course {
+  id              Int           @id @default(autoincrement())
+  slug            String        @unique
+  nameUz          String        @map("name_uz")
+  nameRu          String?       @map("name_ru")
+  nameEn          String?       @map("name_en")
+  descriptionUz   String        @map("description_uz")
+  descriptionRu   String?       @map("description_ru")
+  descriptionEn   String?       @map("description_en")
+  curriculumUz    String        @map("curriculum_uz")
+  curriculumRu    String?       @map("curriculum_ru")
+  curriculumEn    String?       @map("curriculum_en")
+  category        String
+  price           Int
+  durationUz      String        @map("duration_uz")
+  durationRu      String?       @map("duration_ru")
+  durationEn      String?       @map("duration_en")
+  lessonsPerWeek  Int           @map("lessons_per_week")
+  startDate       DateTime      @map("start_date")
+  targetAudienceUz String       @map("target_audience_uz")
+  targetAudienceRu String?      @map("target_audience_ru")
+  targetAudienceEn String?      @map("target_audience_en")
+  requiredLevelUz String        @map("required_level_uz")
+  requiredLevelRu String?       @map("required_level_ru")
+  requiredLevelEn String?       @map("required_level_en")
+  paymentTermsUz  String        @map("payment_terms_uz")
+  paymentTermsRu  String?       @map("payment_terms_ru")
+  paymentTermsEn  String?       @map("payment_terms_en")
+  image           String?
+  createdAt       DateTime      @default(now()) @map("created_at")
+  updatedAt       DateTime      @updatedAt @map("updated_at")
+  teachers        Teacher[]     @relation("CourseTeachers")
+  groups          Group[]
+  applications    Application[]
+
+  @@map("courses")
+}
+
+model Teacher {
+  id              Int      @id @default(autoincrement())
+  name            String
+  photo           String?
+  specializationUz String  @map("specialization_uz")
+  specializationRu String? @map("specialization_ru")
+  specializationEn String? @map("specialization_en")
+  experienceYears Int      @map("experience_years")
+  bioUz           String   @map("bio_uz")
+  bioRu           String?  @map("bio_ru")
+  bioEn           String?  @map("bio_en")
+  createdAt       DateTime @default(now()) @map("created_at")
+  updatedAt       DateTime @updatedAt @map("updated_at")
+  courses         Course[] @relation("CourseTeachers")
+  groups          Group[]
+
+  @@map("teachers")
+}
+
+model Group {
+  id            Int           @id @default(autoincrement())
+  courseId      Int           @map("course_id")
+  teacherId     Int?          @map("teacher_id")
+  days          String
+  time          String
+  capacity      Int
+  enrolledCount Int           @default(0) @map("enrolled_count")
+  levelUz       String        @map("level_uz")
+  levelRu       String?       @map("level_ru")
+  levelEn       String?       @map("level_en")
+  startDate     DateTime      @map("start_date")
+  status        String        @default("open")
+  createdAt     DateTime      @default(now()) @map("created_at")
+  updatedAt     DateTime      @updatedAt @map("updated_at")
+  course        Course        @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  teacher       Teacher?      @relation(fields: [teacherId], references: [id], onDelete: SetNull)
+  applications  Application[]
+
+  @@index([courseId])
+  @@index([teacherId])
+  @@index([status])
+  @@map("groups")
+}
+
+model Application {
+  id                Int      @id @default(autoincrement())
+  firstName         String   @map("first_name")
+  lastName          String   @map("last_name")
+  phone             String
+  courseId          Int      @map("course_id")
+  groupId           Int?     @map("group_id")
+  ageOrLevel        String?  @map("age_or_level")
+  comment           String?
+  preferredLanguage String   @default("uz") @map("preferred_language")
+  status            String   @default("new")
+  createdAt         DateTime @default(now()) @map("created_at")
+  updatedAt         DateTime @updatedAt @map("updated_at")
+  course            Course   @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  group             Group?   @relation(fields: [groupId], references: [id], onDelete: SetNull)
+
+  @@index([courseId])
+  @@index([groupId])
+  @@index([status])
+  @@index([createdAt])
+  @@map("applications")
+}
+
+model Admin {
+  id           Int      @id @default(autoincrement())
+  email        String   @unique
+  passwordHash String   @map("password_hash")
+  role         String   @default("admin")
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  @@map("admins")
+}
+
+model Testimonial {
+  id        Int      @id @default(autoincrement())
+  author    String
+  textUz    String   @map("text_uz")
+  textRu    String?  @map("text_ru")
+  textEn    String?  @map("text_en")
+  rating    Int      @default(5)
+  photo     String?
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("testimonials")
+}
+
+model FaqItem {
+  id         Int      @id @default(autoincrement())
+  questionUz String   @map("question_uz")
+  questionRu String?  @map("question_ru")
+  questionEn String?  @map("question_en")
+  answerUz   String   @map("answer_uz")
+  answerRu   String?  @map("answer_ru")
+  answerEn   String?  @map("answer_en")
+  order      Int      @default(0)
+  createdAt  DateTime @default(now()) @map("created_at")
+  updatedAt  DateTime @updatedAt @map("updated_at")
+
+  @@index([order])
+  @@map("faq_items")
+}
+
+model ContactMessage {
+  id        Int      @id @default(autoincrement())
+  name      String
+  phone     String?
+  email     String?
+  text      String
+  language  String   @default("uz")
+  isRead    Boolean  @default(false) @map("is_read")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  @@index([isRead])
+  @@index([createdAt])
+  @@map("contact_messages")
+}

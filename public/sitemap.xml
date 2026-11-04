@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:5173/uz</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/courses</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/courses</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/courses</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/teachers</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/teachers"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/teachers"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/teachers"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/teachers</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/teachers"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/teachers"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/teachers"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/teachers</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/teachers"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/teachers"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/teachers"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/schedule</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/schedule"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/schedule"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/schedule"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/schedule</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/schedule"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/schedule"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/schedule"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/schedule</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/schedule"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/schedule"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/schedule"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/contact</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/contact"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/contact"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/contact</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/contact"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/contact"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/contact"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/contact"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/contact"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/faq</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/faq"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/faq"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/faq"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/faq</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/faq"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/faq"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/faq"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/faq</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/faq"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/faq"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/faq"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/favorites</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/favorites"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/favorites"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/favorites"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/favorites</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/favorites"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/favorites"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/favorites"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/favorites</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/favorites"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/favorites"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/favorites"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/privacy"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/privacy"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/privacy</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/privacy"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/privacy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/privacy"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/courses/umumiy-ingliz-tili</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/umumiy-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/umumiy-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/umumiy-ingliz-tili"/>
+    <lastmod>2026-10-28T16:03:08.428Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/courses/umumiy-ingliz-tili</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/umumiy-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/umumiy-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/umumiy-ingliz-tili"/>
+    <lastmod>2026-10-28T16:03:08.428Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/courses/umumiy-ingliz-tili</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/umumiy-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/umumiy-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/umumiy-ingliz-tili"/>
+    <lastmod>2026-10-28T16:03:08.428Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/courses/ielts-tayyorlov</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/ielts-tayyorlov"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/ielts-tayyorlov"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/ielts-tayyorlov"/>
+    <lastmod>2026-10-28T16:03:08.444Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/courses/ielts-tayyorlov</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/ielts-tayyorlov"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/ielts-tayyorlov"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/ielts-tayyorlov"/>
+    <lastmod>2026-10-28T16:03:08.444Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/courses/ielts-tayyorlov</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/ielts-tayyorlov"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/ielts-tayyorlov"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/ielts-tayyorlov"/>
+    <lastmod>2026-10-28T16:03:08.444Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/courses/frontend-dasturlash</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/frontend-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/frontend-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/frontend-dasturlash"/>
+    <lastmod>2026-10-28T16:03:08.458Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/courses/frontend-dasturlash</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/frontend-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/frontend-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/frontend-dasturlash"/>
+    <lastmod>2026-10-28T16:03:08.458Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/courses/frontend-dasturlash</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/frontend-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/frontend-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/frontend-dasturlash"/>
+    <lastmod>2026-10-28T16:03:08.458Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/courses/python-dasturlash</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/python-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/python-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/python-dasturlash"/>
+    <lastmod>2026-10-28T16:03:08.472Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/courses/python-dasturlash</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/python-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/python-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/python-dasturlash"/>
+    <lastmod>2026-10-28T16:03:08.472Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/courses/python-dasturlash</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/python-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/python-dasturlash"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/python-dasturlash"/>
+    <lastmod>2026-10-28T16:03:08.472Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/courses/matematika</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/matematika"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/matematika"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/matematika"/>
+    <lastmod>2026-10-28T16:03:08.486Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/courses/matematika</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/matematika"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/matematika"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/matematika"/>
+    <lastmod>2026-10-28T16:03:08.486Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/courses/matematika</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/matematika"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/matematika"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/matematika"/>
+    <lastmod>2026-10-28T16:03:08.486Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/courses/rus-tili</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/rus-tili"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/rus-tili"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/rus-tili"/>
+    <lastmod>2026-10-28T16:03:08.500Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/courses/rus-tili</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/rus-tili"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/rus-tili"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/rus-tili"/>
+    <lastmod>2026-10-28T16:03:08.500Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/courses/rus-tili</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/rus-tili"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/rus-tili"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/rus-tili"/>
+    <lastmod>2026-10-28T16:03:08.500Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/courses/bolalar-uchun-ingliz-tili</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/bolalar-uchun-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/bolalar-uchun-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/bolalar-uchun-ingliz-tili"/>
+    <lastmod>2026-10-28T16:03:08.515Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/courses/bolalar-uchun-ingliz-tili</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/bolalar-uchun-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/bolalar-uchun-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/bolalar-uchun-ingliz-tili"/>
+    <lastmod>2026-10-28T16:03:08.515Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/courses/bolalar-uchun-ingliz-tili</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/bolalar-uchun-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/bolalar-uchun-ingliz-tili"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/bolalar-uchun-ingliz-tili"/>
+    <lastmod>2026-10-28T16:03:08.515Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/courses/grafik-dizayn</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/grafik-dizayn"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/grafik-dizayn"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/grafik-dizayn"/>
+    <lastmod>2026-10-28T16:03:08.528Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/courses/grafik-dizayn</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/grafik-dizayn"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/grafik-dizayn"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/grafik-dizayn"/>
+    <lastmod>2026-10-28T16:03:08.528Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/courses/grafik-dizayn</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/grafik-dizayn"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/grafik-dizayn"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/grafik-dizayn"/>
+    <lastmod>2026-10-28T16:03:08.528Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/uz/courses/sat-matematika</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/sat-matematika"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/sat-matematika"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/sat-matematika"/>
+    <lastmod>2026-10-28T16:03:08.545Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/ru/courses/sat-matematika</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/sat-matematika"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/sat-matematika"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/sat-matematika"/>
+    <lastmod>2026-10-28T16:03:08.545Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>http://localhost:5173/en/courses/sat-matematika</loc>
+    <xhtml:link rel="alternate" hreflang="uz" href="http://localhost:5173/uz/courses/sat-matematika"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:5173/ru/courses/sat-matematika"/>
+    <xhtml:link rel="alternate" hreflang="en" href="http://localhost:5173/en/courses/sat-matematika"/>
+    <lastmod>2026-10-28T16:03:08.545Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

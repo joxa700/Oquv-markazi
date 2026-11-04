@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Nur Ta'lim">
+  <rect width="64" height="64" rx="18" fill="#0B1F3A"/>
+  <path d="M14 43V22.5c7.8 0 13.2 2.3 18 6.1 4.8-3.8 10.2-6.1 18-6.1V43c-7.8 0-13.2 2.3-18 6.1-4.8-3.8-10.2-6.1-18-6.1Z" fill="none" stroke="#FFFFFF" stroke-width="3.2" stroke-linejoin="round"/>
+  <path d="M32 28.6V49" stroke="#7BB5FF" stroke-width="3.2" stroke-linecap="round"/>
+  <circle cx="32" cy="14.5" r="3.6" fill="#7BB5FF"/>
+</svg>
